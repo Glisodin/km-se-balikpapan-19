@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Dashboard Sales Maven Coffe Shop</title>
 
     <!-- Montserrat Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="grid-container">
-
       <!-- Header -->
       <header class="header">
         <div class="menu-icon" onclick="openSidebar()">
           <span class="material-icons-outlined">menu</span>
         </div>
-        
       </header>
       <!-- End Header -->
 
@@ -30,9 +34,12 @@
       <aside id="sidebar">
         <div class="sidebar-title">
           <div class="sidebar-brand">
-            <span class="material-icons-outlined">shopping_cart</span> <small>Maven Coffe Shop</small> 
+            <span class="material-icons-outlined">shopping_cart</span>
+            <small>Maven Coffe Shop</small>
           </div>
-          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+          <span class="material-icons-outlined" onclick="closeSidebar()"
+            >close</span
+          >
         </div>
 
         <ul class="sidebar-list">
@@ -51,8 +58,6 @@
               <span class="material-icons-outlined">group</span> LogOut
             </a>
           </li>
-          
-          
         </ul>
       </aside>
       <!-- End Sidebar -->
@@ -64,7 +69,6 @@
         </div>
 
         <div class="main-cards">
-
           <div class="card">
             <div class="card-inner">
               <h3>TOTAL SALES</h3>
@@ -84,7 +88,9 @@
           <div class="card">
             <div class="card-inner">
               <h3>MOST SALES BY STORE</h3>
-              <span class="material-icons-outlined">notification_important</span>
+              <span class="material-icons-outlined"
+                >notification_important</span
+              >
             </div>
             <h1 id="high_store"></h1>
           </div>
@@ -92,29 +98,27 @@
           <div class="card">
             <div class="card-inner">
               <h3>LOW SALES BY STORE</h3>
-              <span class="material-icons-outlined">notification_important</span>
+              <span class="material-icons-outlined"
+                >notification_important</span
+              >
             </div>
             <h1 id="low_store"></h1>
           </div>
-
         </div>
 
         <div class="charts">
-
           <div class="charts-card">
             <h2 class="chart-title">Top 5 Products Category</h2>
             <canvas id="barChart" width="400" height="200"></canvas>
           </div>
 
           <div class="charts-card">
-            <h2 class="chart-title">Sales Coffe Shop</h2>
+            <h2 class="chart-title">Sales Coffee Shop</h2>
             <canvas id="lineChart" width="400" height="200"></canvas>
           </div>
-
         </div>
       </main>
       <!-- End Main -->
-
     </div>
 
     <!-- Scripts -->
