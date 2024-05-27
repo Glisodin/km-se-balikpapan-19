@@ -1,0 +1,105 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #b4b4b8;
+  color: darkgreen;
+}
+
+main {
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 130px;
+  background-color: C7C8CC;
+}
+
+.profile-picture {
+  border-radius: 35%;
+  width: 220px;
+  height: 170px auto;
+  padding-top: 15px;
+}
+
+.profile-picture-wrap {
+  text-align: center;
+}
+
+.profile-picture-wrap span {
+  color: darkred;
+  font-style: italic;
+}
+
+.profile-picture-wrap h1 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-size: 24px;
+  font-style: bold;
+}
+
+.profile-picture-wrap p {
+  margin: 0px;
+  color: saddlebrown;
+}
+
+.profile-picture-wrap a {
+  color: saddlebrown;
+}
+
+.bio-wrap {
+  margin-top: 24px;
+}
+
+.bio-wrap p {
+  padding-left: 15px;
+}
+
+.bio-wrap span {
+  color: darkred;
+  font-style: italic;
+}
+
+.educations-wrap {
+  margin-top: 33px;
+}
+
+.educations-wrap h2 {
+  margin-bottom: 40px;
+  padding-left: 15px;
+}
+
+.edu-list {
+  padding: 0px;
+}
+
+.edu-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.edu-list-item img {
+  width: 120px;
+  height: 120px;
+  border-radius: 20%;
+  object-fit: scale-down;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  border-radius: 20%;
+}
+
+.edu-list-item p {
+  font-size: 14px;
+  padding-right: 15px;
+}
+
+.edu-list-pic-text {
+  display: flex;
+}
+
+.edu-list-pic-text p {
+  color: darkgoldenrod;
+}
+
+.edu-list-pic-text div {
+  margin-left: 40px;
+}
